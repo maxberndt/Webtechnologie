@@ -110,27 +110,32 @@
               </ul>
             </div>
           </nav>
-    </header>
+
+  </header>
 
 <main>
  <div class="container">
    <div class="row">
 
      <div class="col-3">
-       <!-- Tab links -->
 
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
 
-       <ul class="nav nav-tabs-expand-lg  nav-light bg-light">
-
-         <li class="nav-item">
-           <a class="nav-link active" href="#">Meistgelesen</a>
-         </li>
-
-         <li class="nav-item">
-           <a class="nav-link active" href="#">Neu</a>
-         </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="meist-tab" data-toggle="tab" href="#meist" role="tab" aria-controls="meist" aria-selected="true">Meistgelesen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="neu-tab" data-toggle="tab" href="#neu" role="tab" aria-controls="profile" aria-selected="false">Neu</a>
+        </li>
 
       </ul>
+
+      <div class="tab-content" id="myTabContent">
+
+        <div class="tab-pane fade show active" id="meist" role="tabpanel" aria-labelledby="meist-tab">Funktion meist</div>
+        <div class="tab-pane fade" id="neu" role="tabpanel" aria-labelledby="neu-tab">funktion neu</div>
+
+      </div>
 
      <div class="card" style="width: 18rem;">
         <div class="card-body">
@@ -140,36 +145,46 @@
 
             <div class="container">
               <div class="row">
+
                 <div class="col-8">
                   <h5 class="card-title">So sieht ein Tesla Mode-3-Getriebe nach 1,6 Millionen Kilometer aus</h5>
                 </div>
+
                 <div class="col-4">
                   <img src="https://image.futurezone.at/images/cfs_square_104/2874608/tesla-model-3-drive-unit-1.jpeg" alt="Tesla" width="90">
                 </div>
+
               </div> <!--row-->
             </div> <!--container-->
 
         </div> <!--card body-->
-    </div>
+    </div> <!-- card -->
 
     <div class="card" style="width: 18rem;">
        <div class="card-body">
 
+         <p>
          <a class="teaser-tagLineLink ng-star-inserted" id="teaser-pretitle485529659528530" target="_self" href="/digital-life">Digital Life</a>
          <span class="teaser-tagLineSecond ng-star-inserted">| 14.10.2018</span>
+         </p>
 
          <div class="container">
            <div class="row">
-             <div class="col-8">
 
+             <div class="col-8">
                <h5 class="card-title">Face ID:Polizisten werden angewiesen iPhones nicht anzusehen</h5>
              </div>
+
               <div class="col-4">
                  <img src="https://image.futurezone.at/images/cfs_square_104/2283840/22895-28275-22825-28088-face-id-2-l-l.jpg" alt=".FaceID" width="90">
-               </div>
+             </div>
+
             </div> <!--row-->
           </div> <!--container-->
+
        </div>  <!--card body-->
+     </div> <!-- container-->
+
        <div class="card" style="width: 18rem;">
           <div class="card-body">
 
@@ -188,13 +203,17 @@
                  <div class="col-4">
                     <img src="https://image.futurezone.at/images/cfs_square_104/2872592/palm_01.jpg" alt="Palm" width="90">
                 </div>
+
                </div> <!--row-->
              </div> <!--container-->
           </div>  <!--card body-->
+        </div> <!-- card -->
               <a href="#" class="btn btn-primary">Mehr lesen</a>
-     </div>
-   </div>
+
+
      </div><!--col-3-->
+
+
 
      <div class="col-9">
        <div class="container">

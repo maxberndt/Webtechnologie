@@ -97,16 +97,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.nav-wrapper,
+.left-layout{
+  max.width: 932px;
+}
+
+body{
+  max-width: 932px;
+}
+
+.text-primary{
+  color: pink;
+}
+
+.card{
+  border-radius: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+@fontface {
+  font-family: Din,sans;
+  font-weight: 600;
+}
+
+@fontface {
 
 
-
-
-
-
-
-
-
-
+}
 
 
 
